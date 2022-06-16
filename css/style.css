@@ -17,11 +17,11 @@
 
 .chart {
   width: 28vw;
+  min-width: 300px;
   height: 75vh;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  transition: all 0.2s; }
+  gap: 1.5rem; }
   @media only screen and (max-width: 81.25em) {
     .chart {
       height: 65vh;
