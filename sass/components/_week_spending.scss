@@ -1,0 +1,57 @@
+.week-spending {
+  background-color: $color-pale-orange;
+  flex: 1;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  padding-bottom: 3.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  &__summary {
+    border-top: 2px solid rgba($color-medium-brown, 0.6);
+
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: flex-start;
+    // border: 1px solid blue;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    &__total-month {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: end;
+      // margin-top: 4rem;
+      // padding-bottom: 2rem;
+      &__title {
+        color: $color-medium-brown;
+        font-size: 1.8rem;
+      }
+      &__value {
+        color: $color-dark-brown;
+        font-size: 4rem;
+        font-weight: 700;
+      }
+    }
+
+    &__last-month {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: end;
+      // margin-bottom: 3rem;
+      &__title {
+        color: $color-medium-brown;
+        font-size: 1.8rem;
+      }
+      &__value {
+        color: $color-dark-brown;
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
